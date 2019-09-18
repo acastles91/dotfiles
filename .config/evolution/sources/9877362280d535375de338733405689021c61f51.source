@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=antonio.castles@gmail.com
+Enabled=true
+Parent=e7936782a2eee6f77b4fbb6f8e44a4c150f5b131
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=antonio.castles@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=95466d882fb98bbbd9538e40b7c7880487f0121b
+RepliesToOriginFolder=false
+UseSentFolder=true

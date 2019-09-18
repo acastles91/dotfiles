@@ -1,0 +1,53 @@
+[Data Source]
+DisplayName=antonio.castles@gmail.com
+Enabled=true
+Parent=e7936782a2eee6f77b4fbb6f8e44a4c150f5b131
+
+[Offline]
+StaySynchronized=false
+
+[Authentication]
+Host=imap.gmail.com
+Method=XOAUTH2
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=antonio.castles@gmail.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=9877362280d535375de338733405689021c61f51
+ArchiveFolder=
+NeedsInitialSetup=true
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=
+RealTrashPath=
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=false
+UseRealTrashPath=false
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

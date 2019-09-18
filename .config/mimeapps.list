@@ -1,0 +1,12 @@
+[Added Associations]
+video/x-theora+ogg=vlc_vlc.desktop;
+video/quicktime=vlc_vlc.desktop;
+video/mp4=vlc_vlc.desktop;
+image/png=gimp.desktop;
+image/jpeg=eog.desktop;gimp.desktop;
+audio/x-opus+ogg=mpv.desktop;
+video/mp2t=vlc_vlc.desktop;mpv.desktop;
+application/x-xoj=xournal.desktop;
+
+[Default Applications]
+text/x-arduino=arduino-arduinoide.desktop

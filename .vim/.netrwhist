@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/antonio/of_v0.10.1_linux64gcc6_release/apps/myApps/trigger2/.git/info'
+let g:netrw_dirhist_2='/home/antonio'
+let g:netrw_dirhist_3='/home/antonio/Sync/Abschluss'

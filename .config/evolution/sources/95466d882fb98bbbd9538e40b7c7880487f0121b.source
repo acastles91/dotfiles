@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=antonio.castles@gmail.com
+Enabled=true
+Parent=e7936782a2eee6f77b4fbb6f8e44a4c150f5b131
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.gmail.com
+Method=XOAUTH2
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=antonio.castles@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port
